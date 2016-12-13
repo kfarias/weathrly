@@ -1,0 +1,63 @@
+@import 'variables';
+
+body {
+  background-color: $background-color;
+}
+
+.header, h2 {
+text-align: center;
+margin: 20px 20px;
+}
+
+h1 {
+margin: 50px 50px;
+font-size: 70px;
+color: $header-font-color;
+}
+
+.Header-input,.Header-button,h1,h2 {
+  font-family: $body-font;
+  border: none;
+}
+
+.Header-input {
+  width: 200px;
+  height: 25px;
+  margin-right: 10px;
+  border: 2px solid $card-boarder-color;
+}
+
+.Header-button {
+  background-color: $button-color;
+  border: 2px solid $card-boarder-color;
+}
+
+.Weather-Card {
+  text-align: center;
+}
+
+.day-of-week {
+  border: 2px solid $card-boarder-color;
+  background-color: $card-background-color;
+  height: 300px;
+  margin:40px 15px;
+  display: inline-block;
+  width:100%;
+}
+
+.date-p-tag {
+  margin: 20px 20px;
+}
+
+.high-p-tag, .low-p-tag, {
+  margin: 10px 10px;
+}
+
+.location-p-tag {
+  font-size: 20px;
+  margin-top:30px;
+}
+
+.sunny {
+  background-image: url('/images/sun.svg');
+}
